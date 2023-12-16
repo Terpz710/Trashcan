@@ -34,13 +34,17 @@ This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on 
 Did you find a bug or error when using this plugin? feel free to open the
 issues [here](https://github.com/brokiem/Trashcan/issues/new)
 
-## 👑 Donation
-
-Paypal - https://paypal.me/brokiem <br>
-Saweria - https://saweria.co/brokiem
-
 ## 🌟 Credits
+
+**Thank you to brokiem for creating this plugin!**
 
 This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on MCPEDL<br>
 Icon taken from [Sketchfab](https://sketchfab.com/3d-models/trash-can-minecraft-831dd489b8044ba8bb77f0ca253dcfde) by
 sedona1029
+
+
+# PM5
+
+Support for [Pocketmine-MP](https://pmmp.io) API:5.0.0-5.7.0 and newer!
+
+Continued by [Terpz710](https://github.com/Terpz710)!
