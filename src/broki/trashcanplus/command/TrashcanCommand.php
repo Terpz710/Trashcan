@@ -73,7 +73,7 @@ class TrashcanCommand extends Command implements PluginOwned {
                     break;
             }
         } else {
-            $sender->sendMessage("§7---- ---- [ §3TrashcanPlus§7 ] ---- ----\n§bAuthor: @brokiem\n§3Source Code: github.com/brokiem/Trashcan\nVersion " . $this->getOwningPlugin()->getDescription()->getVersion() . "\n§7---- ---- ---- - ---- ---- ----");
+            $sender->sendMessage("§7---- ---- [ §3TrashcanPlus§7 ] ---- ----\n§bAuthor: @brokiem, @Terpz710\n§3Source Code: github.com/Terpz710/Trashcan\nVersion " . $this->getOwningPlugin()->getDescription()->getVersion() . "\n§7---- ---- ---- - ---- ---- ----");
         }
 
         return false;
