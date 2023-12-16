@@ -21,6 +21,31 @@ This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on 
 
 ## 💬 Commands
 
+
+OLD THESE ARE REQUIRED TO USE THE COMMANDS:
+
+permissions:
+** REQUIRED TO USE COMMAND**
+
+  trashcanplus.command
+
+** THESE ARE REQUIRED TO RUN THE SUBCOMMANDS**
+
+  trashcanplus.spawn
+  
+  trashcanplus.despawn
+  
+  trashcanplus.get
+  
+  trashcanplus.despawn
+  
+  trashcanplus.reload
+
+
+
+
+
+
 | Command                                   | Description                   | Permission                 | Default    |
 |-------------------------------------------|-------------------------------|----------------------------|------------|
 | ```/trashcan```                           | ```Trashcan command```        | ```none```                 | ```true``` |
