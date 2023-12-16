@@ -1,11 +1,7 @@
-<h1>TrashcanPlus<img src="https://raw.githubusercontent.com/brokiem/Trashcan/master/assets/icon.png" height="64" width="64" align="left" alt=""></h1><br>
+<h1>TrashcanPlus<img src="https://github.com/Terpz710/Trashcan/blob/master/assets/icon.png" height="64" width="64" align="left" alt=""></h1><br>
 
 <b>3D Trashcan plugin with a bunch of features.</b><br>
 This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on MCPEDL<br><br>
-[![License](https://img.shields.io/github/license/brokiem/Trashcan)](https://github.com/brokiem/Trashcan)
-[![Star](https://img.shields.io/github/stars/brokiem/Trashcan)](https://github.com/brokiem/Trashcan/stargazers)
-[![Discord](https://img.shields.io/discord/830063409000087612?color=7389D8&label=discord)](https://discord.com/invite/jy6abSrjhQ)
-[![Poggit](https://poggit.pmmp.io/shield.dl.total/TrashcanPlus)](https://poggit.pmmp.io/p/TrashcanPlus)
 
 ## ▶ Demo
 - Link to demo: https://youtu.be/mA4Erj7iThw
@@ -32,7 +28,7 @@ This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on 
 ## ❔ Issues
 
 Did you find a bug or error when using this plugin? feel free to open the
-issues [here](https://github.com/brokiem/Trashcan/issues/new)
+issues [here](https://github.com/Terpz710/Trashcan/issues/new)
 
 ## 🌟 Credits
 
