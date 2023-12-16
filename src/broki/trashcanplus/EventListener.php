@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace broki\trashcanplus;
 
-use pocketmine\block\VanillaBlocks;
+use pocketmine\item\VanillaItems;
 use pocketmine\entity\Location;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerInteractEvent;
@@ -29,7 +29,7 @@ class EventListener implements Listener {
         if ($event->getAction() === PlayerInteractEvent::RIGHT_CLICK_BLOCK) {
             if ($event->getItem()->getNamedTag()->getInt("trashcan_item", 0)) {
                 $event->getPlayer()->sendMessage("[Trashcan]" . TextFormat::GREEN . " Trashcan successfully spawned!");
-                $event->getPlayer()->getInventory()->setItemInHand(VanillaBlocks::AIR()->asItem());
+                $event->getPlayer()->getInventory()->setItemInHand(VanillaItems::AIR());
                 Trashcan::getInstance()->spawnTrashcan(Location::fromObject($event->getBlock()->getPosition()->add(0.5, 0.8, 0.5), $event->getBlock()->getPosition()->getWorld()), ownerXuid: $event->getPlayer()->getXuid());
                 $event->cancel();
             }
