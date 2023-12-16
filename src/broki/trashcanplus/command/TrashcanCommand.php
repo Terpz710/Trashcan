@@ -14,6 +14,12 @@ use pocketmine\utils\TextFormat;
 
 class TrashcanCommand extends Command implements PluginOwned {
 
+    public function __construct(TrashCan $plugin) {
+        parent::__construct("trashcan", "trashcan command", null, ["trashcanplus"]);
+        $this->plugin = $plugin;
+        $this->setPermission("trashcanplus.command");
+    }
+
     public function execute(CommandSender $sender, string $commandLabel, array $args): bool {
         if (!$this->testPermission($sender)) {
             return true;
