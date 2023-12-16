@@ -15,8 +15,6 @@ use pocketmine\entity\Skin;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\item\Item;
-use pocketmine\item\ItemFactory;
-use pocketmine\item\ItemIds;
 use pocketmine\math\Vector3;
 use pocketmine\nbt\NBT;
 use pocketmine\nbt\tag\CompoundTag;
@@ -77,7 +75,7 @@ class TrashcanEntity extends Human {
                 $this->getWorld()->dropItem($this->getPosition(), $this->getInvMenu()->getInventory()->getItem($i));
             }
 
-            $trashcanItem = ItemFactory::getInstance()->get(ItemIds::CAULDRON)->setNamedTag(CompoundTag::create()->setInt("trashcan_item", 1)->setString("id", Uuid::uuid4()->toString()));
+            $trashcanItem = VanillaBlocks::CAULDRON()->asItem()->setNamedTag(CompoundTag::create()->setInt("trashcan_item", 1)->setString("id", Uuid::uuid4()->toString()));
             $this->getWorld()->dropItem($this->getPosition(), $trashcanItem->setCustomName(TextFormat::RESET . TextFormat::WHITE . "Trashcan"));
 
             $this->flagForDespawn();
