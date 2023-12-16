@@ -20,40 +20,14 @@ This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on 
 - Lightweight & Open Source ❤
 
 ## 💬 Commands
-
-
-OLD THESE ARE REQUIRED TO USE THE COMMANDS:
-
-permissions:
-** REQUIRED TO USE COMMAND**
-
-  trashcanplus.command
-
-** THESE ARE REQUIRED TO RUN THE SUBCOMMANDS**
-
-  trashcanplus.spawn
-  
-  trashcanplus.despawn
-  
-  trashcanplus.get
-  
-  trashcanplus.despawn
-  
-  trashcanplus.reload
-
-
-
-
-
-
 | Command                                   | Description                   | Permission                 | Default    |
 |-------------------------------------------|-------------------------------|----------------------------|------------|
-| ```/trashcan```                           | ```Trashcan command```        | ```none```                 | ```true``` |
-| ```/trashcan help```                      | ```Trashcan help command```   | ```none```                 | ```true``` |
-| ```/trashcan get```                       | ```Get Trashcan item```       | ```trashcanplus.get```     | ```op```   |
-| ```/trashcan spawn [optional: nametag]``` | ```Spawn trashcan entity```   | ```trashcanplus.spawn```   | ```op```   |
-| ```/trashcan despawn```                   | ```Despawn trashcan entity``` | ```trashcanplus.despawn``` | ```true``` |
-| ```/trashcan reload```                    | ```Reload plugin config```    | ```trashcanplus.reload```  | ```op```   |
+| ```/trashcan```                           | ```Trashcan command```        | ```trashcanplus.command```                 | ```true``` |
+| ```/trashcan help```                      | ```Trashcan help command```   | ```trashcanplus.command```                 | ```true``` |
+| ```/trashcan get```                       | ```Get Trashcan item```       | ```trashcanplus.command.get```     | ```must be added to permission manager such as RankSystem```   |
+| ```/trashcan spawn [optional: nametag]``` | ```Spawn trashcan entity```   | ```trashcanplus.command.spawn```   | ```must be added to permission manager such as RankSystem```   |
+| ```/trashcan despawn```                   | ```Despawn trashcan entity``` | ```trashcanplus.command.despawn``` | ```must be added to permission manager such as RankSystem``` |
+| ```/trashcan reload```                    | ```Reload plugin config```    | ```trashcanplus.command.reload```  | ```must be added to permission manager such as RankSystem```   |
 
 ## ❔ Issues
 
