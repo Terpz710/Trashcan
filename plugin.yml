@@ -1,8 +1,8 @@
 name: TrashcanPlus
 main: broki\trashcanplus\Trashcan
 version: 1.0.0
-api: 4.0.0
-author: broki
+api: 5.0.0
+author: broki, Terpz710
 
 permissions:
   trashcanplus.spawn:
