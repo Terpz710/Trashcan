@@ -5,15 +5,5 @@ api: 5.0.0
 author: broki, Terpz710
 
 permissions:
-  trashcanplus.spawn:
-    default: op
-  trashcanplus.despawn:
-    default: true
-  trashcanplus.get:
-    default: op
-  trashcanplus.despawn.force:
-    default: op
-  trashcanplus.reload:
-    default: op
-  trashcanplus.notify:
+  trashcanplus.command:
     default: op
