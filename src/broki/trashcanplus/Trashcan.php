@@ -8,7 +8,6 @@ use broki\trashcanplus\command\TrashcanCommand;
 use broki\trashcanplus\entity\TrashcanEntity;
 use broki\trashcanplus\sound\RandomOrbSound;
 use brokiem\updatechecker\Promise;
-use brokiem\updatechecker\UpdateChecker;
 use muqsit\invmenu\InvMenu;
 use muqsit\invmenu\InvMenuHandler;
 use muqsit\invmenu\transaction\InvMenuTransaction;
