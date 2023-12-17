@@ -63,14 +63,6 @@ class Trashcan extends PluginBase {
         if (!InvMenuHandler::isRegistered()) {
             InvMenuHandler::register($this);
         }
-
-        $this->getScheduler()->scheduleRepeatingTask(new ClosureTask(function(): void {
-            UpdateChecker::checkUpdate($this->getDescription()->getName(), $promise = new Promise());
-
-            $promise->then(function($data) {
-                $this->cachedUpdate = [$data["version"], $data["last_state_change_date"], $data["html_url"]];
-            });
-        }), 864000); // 12 hours
     }
 
     public function checkResources(): void {
