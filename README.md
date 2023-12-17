@@ -32,7 +32,7 @@ issues [here](https://github.com/Terpz710/Trashcan/issues/new)
 
 ## 🌟 Credits
 
-**Thank you to brokiem for creating this plugin!**
+**Special thanks to brokiem for creating this plugin!**
 
 This plugin is based on [Trashcan Addon](https://mcpedl.com/trashcan-addon/) on MCPEDL<br>
 Icon taken from [Sketchfab](https://sketchfab.com/3d-models/trash-can-minecraft-831dd489b8044ba8bb77f0ca253dcfde) by
