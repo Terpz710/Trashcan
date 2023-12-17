@@ -14,9 +14,9 @@ use pocketmine\utils\TextFormat;
 
 class TrashcanCommand extends Command implements PluginOwned {
 
-    public function __construct(TrashCan $TrashCan) {
+    public function __construct(TrashCan $plugin) {
         parent::__construct("trashcan", "trashcan command", null, ["trashcanplus"]);
-        $this->plugin = $TrashCan;
+        $this->plugin = $plugin;
         $this->setPermission("trashcanplus.command");
     }
 
